@@ -1,5 +1,6 @@
 (sym_lib_table
-  (version 7)
-  (lib (name "CB_REV_C-altium-import")(type "KiCad")(uri "${KIPRJMOD}/CB_REV_C-altium-import.kicad_sym")(options "")(descr ""))
-  (lib (name "PART")(type "KiCad")(uri "${KIPRJMOD}/PART.kicad_sym")(options "")(descr ""))
+	(version 7)
+	(lib (name "CB_REV_C-altium-import") (type "KiCad") (uri "${KIPRJMOD}/CB_REV_C-altium-import.kicad_sym") (options "") (descr ""))
+	(lib (name "PART") (type "KiCad") (uri "${KIPRJMOD}/PART.kicad_sym") (options "") (descr ""))
+	(lib (name "Buck_Converter") (type "KiCad") (uri "${KIPRJMOD}/2026-10-16_05-55-43.kicad_sym") (options "") (descr ""))
 )

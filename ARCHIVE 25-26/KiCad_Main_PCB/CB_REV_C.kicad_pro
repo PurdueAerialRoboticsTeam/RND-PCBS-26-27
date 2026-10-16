@@ -1000,7 +1000,7 @@
         "uuid": "4a973649-3bfb-4d54-ba66-b6518ecd628a"
       }
     ],
-    "used_designators": "D11-15,#PWR32-46,C14-18,R20-29,J23-27,H1-4",
+    "used_designators": "D11-15,#PWR32-53,C14-21,J23-27,Cin1-2,#FLG1,R20-33,H1-4,U3,Rt1-3",
     "variants": []
   },
   "sheets": [
