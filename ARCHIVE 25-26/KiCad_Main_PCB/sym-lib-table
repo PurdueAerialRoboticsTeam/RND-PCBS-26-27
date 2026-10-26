@@ -3,4 +3,5 @@
 	(lib (name "CB_REV_C-altium-import") (type "KiCad") (uri "${KIPRJMOD}/CB_REV_C-altium-import.kicad_sym") (options "") (descr ""))
 	(lib (name "PART") (type "KiCad") (uri "${KIPRJMOD}/PART.kicad_sym") (options "") (descr ""))
 	(lib (name "Buck_Converter") (type "KiCad") (uri "${KIPRJMOD}/2026-10-16_05-55-43.kicad_sym") (options "") (descr ""))
+	(lib (name "LMZ12008TZ") (type "KiCad") (uri "${KIPRJMOD}/LMZ12008TZ.kicad_sym") (options "") (descr ""))
 )
