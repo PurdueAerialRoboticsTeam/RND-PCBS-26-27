@@ -15339,7 +15339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68006fff-a114-4bee-b5a5-dbe18c0b9218")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 464.82 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15403,7 +15403,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
