@@ -4597,16 +4597,6 @@
 		)
 		(uuid "b6b3c675-3a35-4ef1-8ac4-8406b7d2f9fd")
 	)
-	(text "Remove I2C pull up resistors"
-		(exclude_from_sim no)
-		(at 477.52 26.416 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ba043077-c3e4-454b-882a-4f3c67a6f19c")
-	)
 	(text "Io can run off servo power\n(up to 10V) if 5V fails"
 		(exclude_from_sim no)
 		(at 339.09 241.3 0)
@@ -10818,7 +10808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06_MountingPin"
+		(property "Value" "UART4"
 			(at 511.81 109.5755 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13164,7 +13154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06_MountingPin"
+		(property "Value" "UART5"
 			(at 511.81 303.8855 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13351,7 +13341,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06_MountingPin"
+		(property "Value" "UART2"
 			(at 497.84 195.9355 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20297,7 +20287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04_MountingPin"
+		(property "Value" "I2C_2"
 			(at 504.19 248.0055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21429,7 +21419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06_MountingPin"
+		(property "Value" "UART1"
 			(at 497.84 151.4855 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22197,7 +22187,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x08_MountingPin"
+		(property "Value" "UART3"
 			(at 521.97 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
