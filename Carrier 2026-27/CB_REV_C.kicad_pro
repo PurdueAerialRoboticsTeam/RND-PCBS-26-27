@@ -533,8 +533,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -1001,7 +1001,7 @@
         "uuid": "4a973649-3bfb-4d54-ba66-b6518ecd628a"
       }
     ],
-    "used_designators": "Cin1-2,J2,J23-30,#FLG1,R1-2,R5-6,R9-10,R14,R20-33,#PWR6-7,#PWR29,#PWR32-66,D3,D6-8,D11-22,C2,C4-7,C14-24,H1-4,Rt1-3,U1,U3-4,F1-4",
+    "used_designators": "#FLG1,#PWR2,#PWR6-7,#PWR27,#PWR29,#PWR32-79,C2,C4-7,C14-24,Cin1-2,D3,D6-8,D11-22,F1-4,H1-4,J2,J23-30,R1-2,R5-6,R9-10,R14,R20-33,Rt1-3,U1,U3",
     "variants": []
   },
   "sheets": [
@@ -1012,10 +1012,6 @@
     [
       "1768d2a2-974a-4a00-8b70-f6d15c61410a",
       "80_Pin"
-    ],
-    [
-      "56da03d5-c24d-4da4-a2b1-8c14f225d25b",
-      "goofy_psm"
     ]
   ],
   "text_variables": {
