@@ -6518,16 +6518,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 30.48) (xy 259.08 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41962df9-5372-4d4e-8813-2fc98ea2c06a")
-	)
-	(wire
-		(pts
 			(xy 77.47 278.13) (xy 92.71 278.13)
 		)
 		(stroke
@@ -6575,16 +6565,6 @@
 			(type default)
 		)
 		(uuid "43fb8b87-8103-4df0-912c-51917cd53fa6")
-	)
-	(wire
-		(pts
-			(xy 332.74 29.21) (xy 342.9 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "444a5fd6-0f25-40a0-afd7-991cfc30da4e")
 	)
 	(wire
 		(pts
@@ -8488,7 +8468,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 29.21) (xy 325.12 29.21)
+			(xy 322.58 29.21) (xy 342.9 29.21)
 		)
 		(stroke
 			(width 0)
@@ -8938,7 +8918,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 30.48) (xy 241.3 30.48)
+			(xy 238.76 30.48) (xy 259.08 30.48)
 		)
 		(stroke
 			(width 0)
@@ -14499,86 +14479,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 328.93 29.21 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "56376ddc-0ca1-4968-8f28-2df0f896da03")
-		(property "Reference" "F2"
-			(at 327.914 34.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MF-NSMF050-2"
-			(at 328.676 32.004 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 334.01 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 328.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b7dc586-c75e-4e99-b3ec-da5baf081bbd")
-		)
-		(pin "2"
-			(uuid "f80fa233-b192-47a5-9698-915a9e88e916")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 154.94 222.25 0)
 		(unit 1)
@@ -19297,86 +19197,6 @@
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
 					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 245.11 30.48 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "baf9c66c-64bd-4e78-a5bb-a781ffbca897")
-		(property "Reference" "F1"
-			(at 244.094 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MF-NSMF050-2"
-			(at 244.856 33.274 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 250.19 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 245.11 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ebc31847-695a-4045-8033-9b800f8130dc")
-		)
-		(pin "2"
-			(uuid "8e3ebe1b-b48b-4585-8dba-75f3cf1a9939")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "F1")
 					(unit 1)
 				)
 			)
